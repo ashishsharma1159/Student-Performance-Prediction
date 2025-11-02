@@ -50,6 +50,7 @@ pip install -r requirements.txt
 streamlit run student_performance.py
 
 5.UPLOAD YOUR DATASET
+download dataset student-mat.csv or student-por.csv and upload on the app
 
 Experiments and Results
 Model	Accuracy	MSE	RMSE	R² Score
