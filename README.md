@@ -37,14 +37,18 @@ Steps to Run the Code
 1. Clone the repository
 git clone https://github.com/ASHISHSHARMA1159/Student-Performance-Prediction.git
 cd student-performance-prediction
+
 2.CREATE AND ACTIVATE YOUR VIRTUAL ENVIRONMENT
 python -m venv env
 source env/bin/activate #FOR MAC
 env\Scripts\activate    #FOR WINDOWS
+
 3.INSTALL ALL DEPENDANCIES
 pip install -r requirements.txt
+
 4.RUN THE STREAMLIT APP
 streamlit run student_performance.py
+
 5.UPLOAD YOUR DATASET
 
 Experiments and Results
