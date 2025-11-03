@@ -26,48 +26,47 @@ Advantages: Handles nonlinear relationships and feature interactions.
 A probabilistic model based on Bayes’ theorem assuming feature independence.
 Advantages: Fast, simple, and effective with small datasets.
 
- Model Workflow
+## 🔁 Model Workflow
+
 1. Load and clean dataset  
 2. Encode categorical and scale numerical data  
 3. Split into training and test sets  
-4. Train Decision Tree and Naive Bayes models  
-5. Evaluate and compare performance (Accuracy, MSE, RMSE, R²)
+4. Train **Decision Tree** and **Naive Bayes** models  
+5. Evaluate and compare performance using:  
+   - Accuracy  
+   - MSE  
+   - RMSE  
+   - R² Score
 
-Steps to Run the Code
-1. Clone the repository
+---
+
+## ⚙️ Steps to Run the Code
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/ASHISHSHARMA1159/Student-Performance-Prediction.git
 cd student-performance-prediction
-
-2.CREATE AND ACTIVATE YOUR VIRTUAL ENVIRONMENT
-python -m venv env
-source env/bin/activate #FOR MAC
-env\Scripts\activate    #FOR WINDOWS
-
-3.INSTALL ALL DEPENDANCIES
+```
+### 2.CREATE AND ACTIVATE YOUR VIRTUAL ENVIRONMENT 
+```bash
+python -m venv env source env/bin/activate #FOR MAC
+env\Scripts\activate #FOR WINDOWS
+```
+### 3.INSTALL ALL DEPENDANCIES 
+```bash
 pip install -r requirements.txt
-
-4.RUN THE STREAMLIT APP
+```
+### 4.RUN THE STREAMLIT APP 
+```bash
 streamlit run student_performance.py
-
-5.UPLOAD YOUR DATASET
+```
+###5.UPLOAD YOUR DATASET 
 download dataset student-mat.csv or student-por.csv and upload on the app
 
-Experiments and Results
-Model	Accuracy	MSE	RMSE	R² Score
-Decision Tree	0.89	0.11	0.33	0.58
-Naive Bayes	0.84	0.16	0.40	0.45
-(Values may vary slightly depending on dataset split.)
+### Experiments and Results 
+Model Accuracy MSE RMSE R² Score 
+Decision Tree 0.89 0.11 0.33 0.58 
+Naive Bayes 0.84 0.16 0.40 0.45 (Values may vary slightly depending on dataset split.) 
 
-Conclusion
-This project demonstrates that both Decision Tree and Naive Bayes are effective in predicting student outcomes.
-However, the Decision Tree Classifier achieved superior performance in terms of accuracy and error metrics.
-Key Learnings:
-Data preprocessing (especially encoding and scaling) significantly impacts results.
-Simple models like Naive Bayes can still perform well in educational prediction tasks.
-Visualization and interpretability are crucial when presenting model results to educators.
-
-REFERENCES
-Cortez, P., & Silva, A. M. G. (2008). Using Data Mining to Predict Secondary School Student Performance.
-UCI Machine Learning Repository
-Scikit-learn Documentation — https://scikit-learn.org
-Streamlit Documentation — https://docs.streamlit.io
+### Conclusion 
+This project demonstrates that both Decision Tree and Naive Bayes are effective in predicting student outcomes. However, the Decision Tree Classifier achieved superior performance in terms of accuracy and error metrics. Key Learnings: Data preprocessing (especially encoding and scaling) significantly impacts results. Simple models like Naive Bayes can still perform well in educational prediction tasks. Visualization and interpretability are crucial when presenting model results to educators. REFERENCES Cortez, P., & Silva, A. M. G. (2008). Using Data Mining to Predict Secondary School Student Performance. UCI Machine Learning Repository Scikit-learn Documentation — https://scikit-learn.org Streamlit Documentation — https://docs.streamlit.io this doesnt llookk good on git hub pls help in formatting dont add anything extra just give nice format code of readme file
